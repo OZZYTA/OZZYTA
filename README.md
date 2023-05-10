@@ -1,4 +1,43 @@
 <!-- Encabezado con animación -->
+<head><style>
+  /* Animación de texto */
+  .animated-text {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
+  
+  /* Colores personalizados */
+  .design { color: #FF7F50; }
+  .frontend { color: #00BFFF; }
+  .backend { color: #7FFF00; }
+  .data-science { color: #FFD700; }
+  
+  /* Botón de contacto */
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #3E8E41;
+  }
+  
+  /* Animación de desplazamiento suave */
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
 <h1>Hello 👋, I'm Natali! <span class="animated-text">I'm a passionate developer</span></h1>
 
 <!-- Información personal -->
